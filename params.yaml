@@ -1,0 +1,7 @@
+Model:
+  model_name: google/pegasus-cnn_dailymail
+  max_length: 128
+  min_length: 30
+  length_penalty: 2.0
+  num_beams: 4
+  early_stopping: True
