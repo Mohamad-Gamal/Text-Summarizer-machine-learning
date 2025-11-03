@@ -3,6 +3,4 @@ textenv/
 artifacts/
 
 .textenv/
-venv/
 __pycache__/
-.env
