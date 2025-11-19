@@ -36,19 +36,19 @@ This project delivers an end-to-end **MLOps pipeline** for **abstractive text su
 ---
 
 ## 📂 Project Structure
- project/
- │── data/
- │── src/
- │   ├── data_preprocessing.py
- │   ├── train.py
- │   ├── evaluate.py
- │   ├── inference.py
- │── models/
- │── configs/
- │── notebooks/
- │── api/
- │── docker/
- │── README.md
+    project/
+       │── data/
+       │── src/
+            │   ├── data_preprocessing.py
+            │   ├── train.py
+            │   ├── evaluate.py
+            │   ├── inference.py
+       │── models/
+       │── configs/
+       │── notebooks/
+       │── api/
+       │── docker/
+       │── README.md
 
 
 ## Installation
