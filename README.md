@@ -50,23 +50,26 @@ This project delivers an end-to-end **MLOps pipeline** for **abstractive text su
  │── docker/
  │── README.md
 
-## Installation
-```bash
-git clone https://github.com/Mohamad-Gamal/Text-Summarizer-machine-learning.git
-cd project
-pip install -r requirements.txt
-```
-## To run the fine-tuning pipeline:
- ```
-  python src/train.py --config configs/train_config.yaml
 
+## Installation
+ ```bash
+ git clone https://github.com/Mohamad-Gamal/Text-Summarizer-machine-learning.git
+ cd project
+ pip install -r requirements.txt
+ ```
+
+## To run the fine-tuning pipeline:
+  ```
+   python src/train.py --config configs/train_config.yaml
+ ```
 ## Inference
 ```
   python src/inference.py --text "Your long text here..."
 ```
 ## Deployment
-  Start the API (FastAPI example):
-    ``` uvicorn api.main:app --reload
+   ### Start the API (FastAPI example):
+    ``` 
+    uvicorn api.main:app --reload
     ```
 ## Results
   - High-quality abstractive summaries
