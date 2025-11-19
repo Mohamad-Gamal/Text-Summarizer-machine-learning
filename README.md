@@ -36,26 +36,26 @@ This project delivers an end-to-end **MLOps pipeline** for **abstractive text su
 ---
 
 ## 📂 Project Structure
-project/
-│── data/
-│── src/
-│ ├── data_preprocessing.py
-│ ├── train.py
-│ ├── evaluate.py
-│ ├── inference.py
-│── models/
-│── configs/
-│── notebooks/
-│── api/
-│── docker/
-│── README.md
+ project/
+ │── data/
+ │── src/
+ │   ├── data_preprocessing.py
+ │   ├── train.py
+ │   ├── evaluate.py
+ │   ├── inference.py
+ │── models/
+ │── configs/
+ │── notebooks/
+ │── api/
+ │── docker/
+ │── README.md
 
 ## Installation
 ```bash
 git clone https://github.com/Mohamad-Gamal/Text-Summarizer-machine-learning.git
 cd project
 pip install -r requirements.txt
-
+```
 ## To run the fine-tuning pipeline:
  ```
   python src/train.py --config configs/train_config.yaml
@@ -63,11 +63,11 @@ pip install -r requirements.txt
 ## Inference
 ```
   python src/inference.py --text "Your long text here..."
-
+```
 ## Deployment
   Start the API (FastAPI example):
     ``` uvicorn api.main:app --reload
-
+    ```
 ## Results
   - High-quality abstractive summaries
   - Stable performance after Pegasus fine-tuning
